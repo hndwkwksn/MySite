@@ -10,6 +10,34 @@ header {
   height: 70px;
   background-color: #EC715F;
 }
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+.header-group {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 70px;
+}
+.nav {
+  display: flex;
+}
+.nav-list {
+  width: 120px;
+  line-height: 70px;
+  color: #FAFAFA;
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+}
+.nav-list a {
+  color: #FAFAFA;
+}
+a {
+  text-decoration: none;
+}
 
 section {
   width: 100%;
